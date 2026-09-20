@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MutluBadem</title>
+<meta name="description" content="MutluBadem — Türkçe mobil oyunlar ve eğitici uygulamalar.">
+<style>
+  :root{
+    --bg:#FFF8F0; --card:#FFFFFF; --ink:#4A3F7A; --muted:#6B6485;
+    --accent:#8B6FD4; --gold:#F5A623; --line:#EDE7F6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#17141F; --card:#211C2E; --ink:#EDE9F7; --muted:#A9A2BF;
+           --accent:#A991E8; --gold:#F5B342; --line:#2E2740; }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    padding:0 20px;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:56px 0 72px}
+  header{text-align:center;margin-bottom:44px}
+  .logo{
+    display:inline-block;font-size:30px;font-weight:800;letter-spacing:-.5px;
+    color:var(--accent);
+  }
+  .logo span{color:var(--gold)}
+  .tag{color:var(--muted);margin-top:8px;font-size:15px}
+  h2{font-size:18px;margin:0 0 16px;font-weight:700}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:22px 24px;margin-bottom:16px;
+  }
+  .card h3{font-size:17px;margin-bottom:6px;font-weight:700}
+  .card p{color:var(--muted);font-size:15px}
+  .meta{margin-top:12px;font-size:14px;color:var(--muted)}
+  a{color:var(--accent);text-decoration:none;font-weight:600}
+  a:hover{text-decoration:underline}
+  footer{
+    margin-top:36px;padding-top:22px;border-top:1px solid var(--line);
+    color:var(--muted);font-size:14px;text-align:center;
+  }
+  footer a{display:inline-block;margin:0 8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">Mutlu<span>Badem</span></div>
+    <p class="tag">Türkçe mobil oyunlar ve eğitici uygulamalar</p>
+  </header>
+
+  <h2>Uygulamalar</h2>
+
+  <div class="card">
+    <h3>Deyimix — Deyim &amp; Atasözü Oyunu</h3>
+    <p>900'den fazla Türkçe deyim ve atasözünü sevimli illüstrasyonlarla öğreten
+       kelime oyunu. Öğrenme modu, arkadaşla düello ve takım halinde Tabu.</p>
+    <p class="meta">iOS ve Android</p>
+  </div>
+
+  <div class="card">
+    <h3>Kelime Ezberle — İngilizce</h3>
+    <p>İngilizce kelime dağarcığını tekrar ve oyunlaştırmayla geliştiren
+       eğitici uygulama.</p>
+    <p class="meta">iOS ve Android</p>
+  </div>
+
+  <footer>
+    <p>İletişim: <a href="mailto:mutlubadem.dev@gmail.com">mutlubadem.dev@gmail.com</a></p>
+    <p style="margin-top:8px">
+      <a href="https://sites.google.com/view/deyimix-gizlilik/ana-sayfa">Gizlilik Politikası</a>
+    </p>
+    <p style="margin-top:14px">&copy; 2026 MutluBadem</p>
+  </footer>
+
+</div>
+</body>
+</html>
